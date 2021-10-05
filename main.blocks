@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="YMy.`f2zwQ1DzU8,Jl}8">sprite</variable><variable id="2+^L0{_2JJ_tB;dJ8,7s">list</variable><variable id="%w#cBJ0Rl69f/Sr:$W-)">text list</variable><variable id=":f]F;.eoov!5UuQ*3Kw^">myImage</variable></variables><block type="device_gesture_event" id="I6i[r?stR}C@DAM~qTal" x="-2814" y="-2939"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_image_offset" id="(2~t^c0ob;we0qviDKKO"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="array_pickRandom" id="qk_s_=Ud;Eh#q=r;Z!3h"><value name="list"><block type="lists_create_with" id="DbW3nl6[GxSygW5J*uc6" inline="false"><mutation items="6" horizontalafter="3"/><value name="ADD0"><block type="device_build_image" id="H$c+F|Tk_U7+N)l`w$l_"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><block type="device_build_image" id="$qNsMmsIiylo{mJM=XB*"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        . . . . . 
+        . . . # . 
+        . . . . .
+        `</field></block></value><value name="ADD2"><block type="device_build_image" id="NJOPeUZt{9i0$YCgX%H?"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . .
+        `</field></block></value><value name="ADD3"><block type="device_build_image" id="]e+)d=],kBwH~Opzb+Cw"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD4"><block type="device_build_image" id="^ER78sRs9]cDR||DEG3L"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD5"><block type="device_build_image" id="]3w8#4_:DIqLZQE3dLGv"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        # # . # # 
+        . # # # . 
+        # . . . #
+        `</field></block></value></block></value></block></value><value name="offset"><shadow type="math_number" id="7GTu=t[;J8[a?,IWSq,y"><field name="NUM">0</field></shadow></value></block></statement></block><block type="pxt-on-start" id="LjO;=%gVtySo:zrQVAh~" x="-2324" y="-2123"/><block type="pxt-on-start" id="6:^`{f0(}[s^mUohnEi~" disabled="true" x="0" y="0"/></xml>
